@@ -1,0 +1,36 @@
+git init 
+git add <file> or < . >
+git status // show tracked & untracked files = show the stage 
+git commit -am "Message" // commit and add all 
+git commit -m "Message" // commit & add specific files
+git log // Show the commit id history 
+git checkout <commit id> // moves between branches, commits that's mean point to a specific commit/branche 
+git checkout master // go to the current state (last commit)
+git checkout -b <branche name> //create a new branche and switch to it.
+git pull origin <name of the branche> // take all informations from github repo, to our local repo and update it
+git pull  //basicly we work with 1 branche,before use it we have to track a branche first, "master" by default
+git push -u origin master  //Used for the 1st push to remember & track the branch 
+git push // Very clear nothing to explain
+
+
+
+
+
+/** Directory is the place where the project is on it's current state
+
+	Repositorie is ALL project versions **/
+
+gitHub is an application that allows you to store remote
+repositories on teir servers.
+
+Three ways to interacte with a repo : clone/donwload/fork it
+clone it : creates the local version of this repo on your machine
+fork it : creates the repo in your github 
+download it : download the source files WITHOUT THE .git 
+
+2 ways create local git repo , or create remote repo on github,
+connecting github repo to local git repo : git remote add origin https/ssh of the repo 
+
+if u want to check if they are connected properly :  git remote -v => Result shows fetch & push
+
+
