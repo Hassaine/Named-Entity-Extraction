@@ -5,7 +5,7 @@ from nltk.stem.isri import ISRIStemmer
 from tokenizer import *
 from nltk.stem import WordNetLemmatizer
 from indexes import *
-from traitements import *
+
 import re
 
 class Stemmer:
@@ -53,8 +53,11 @@ class BasicStemmer(Stemmer):
 
 
     def verify(self,word):
-        if ARABIC_STOPWORDS_INDEX.access(word):
+        if self.stopWordsIndex.access(word):
             return True
+
+    def setStopWordsIndex(self,index:ArabicStopWordsIndex):
+        self.stopWordsIndex=index
 
 
 '''

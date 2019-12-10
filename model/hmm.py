@@ -12,15 +12,16 @@ import pickle
 import os
 
 
+position = os.path.dirname(os.path.abspath(__file__))
 
         # ############################################ SAVE/LOAD FUNCTION
 def sauvegarder_obj(obj, name:str):
-    with open(name + '.pkl', 'wb') as f:
+    with open(os.path.join(position, name) + '.pkl', 'wb') as f:
         pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
 
 
 def charger_obj(name:str):
-    with open(name + '.pkl', 'rb') as f:
+    with open(os.path.join(position, name) + '.pkl', 'rb') as f:
         return pickle.load(f)
 
 
@@ -61,7 +62,7 @@ def loadIndex(fileName="emission.p"):
     binary file
     """
     import pickle
-    with open(fileName, 'rb') as fp:
+    with open(os.path.join(position, fileName), 'rb') as fp:
         return pickle.load(fp)
 
     # ############################################
@@ -87,9 +88,16 @@ class Model:
     @classmethod
     def retrain(self): pass
 
+    @classmethod
+    def tagTokens(self,tokens:list):pass
+
 
 class HMM(Model):
 
+    def __init__(self,stemmer):
+        super(HMM, self).__init__(stemmer)
+        self.EMISSION_MATRIX=None
+        self.TRANSITION_MATRIX = None
 
 
     def constructEmissionMatrix(self,sourceFilesList:list):
@@ -98,7 +106,7 @@ class HMM(Model):
         for tag in ['PERSON','ORG','OTHER','LOC','DATE','OCLUE','DCLUE','LCLUE','PCLUE','PREP','PUNC','CONJ','NPREFIX','DEF']:
             emission[tag]={}
         for fileName in sourceFilesList:
-            file = open(fileName,'r',encoding='windows-1256')
+            file = open(os.path.join(position, fileName),'r',encoding='windows-1256')
             for line in file:
                 words = line.split()
                 entite = ''
@@ -122,6 +130,7 @@ class HMM(Model):
                  emission[tag][word]= round(float("{0:.6f}".format(emission[tag][word]/somme)),6)
 
 
+        self.EMISSION_MATRIX=emission
         return emission
 
     #saveIndex(emission1)
@@ -134,7 +143,7 @@ class HMM(Model):
         #construction of the transition matrix
 
         for fileName in sourceFilesList:
-            file = open(fileName,'r',encoding="windows-1256")
+            file = open(os.path.join(position, fileName),'r',encoding="windows-1256")
             fileFinal=""
             for line in file:
                 if(len(line)>1):
@@ -147,8 +156,13 @@ class HMM(Model):
         cfd = nltk.ConditionalFreqDist(bigrams)
         cfd.tabulate()
 
+        self.TRANSITION_MATRIX=cfd
+        return cfd
 
+'''
 HMM(None).constructTransitionMatrix(["NEtagSeq.txt"])
+
+'''
 
 
 
