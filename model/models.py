@@ -7,19 +7,21 @@ Created on Wed Dec  14 22:41:18 2019
 import os,sys,inspect
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parentdir = os.path.dirname(currentdir)
-sys.path.insert(0,parentdir)
+sys.path.append(parentdir)
+sys.path.append(parentdir+"\\segtools")
+sys.path.append(parentdir+"\\bases")
 import nltk
 from nltk import defaultdict,ConditionalFreqDist
 import numpy
 import re
 import pickle
-import bases.indexes
-import segtools.tokenizer
-import segtools.stemer
+import tokenizer
+import stemer
+import indexes
 from staticContent import *
-from bases.indexes import ArabicStopWordsIndex
-from segtools.tokenizer import BasicTokenize
-from segtools.stemer import BasicStemmer
+from indexes import ArabicStopWordsIndex
+from tokenizer import BasicTokenize
+from stemer import BasicStemmer
 
 
 position = os.path.dirname(os.path.abspath(__file__))
@@ -240,7 +242,7 @@ if __name__=='__main__':
     HmmModel=HMM()
     HmmModel.constructTransitionMatrix(["../corpus/sources/transition/NEtagSeq.txt"])
     HmmModel.constructEmissionMatrix(["../corpus/sources/emission/NELexicon.txt"])
-    #print(HmmModel.tagText(open(fileName,"r",encoding="windows-1256").read()))
+    print(HmmModel.tagText(open(fileName,"r",encoding="windows-1256").read()))
 
 
 

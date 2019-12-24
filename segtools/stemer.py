@@ -5,9 +5,11 @@ from nltk.stem.arlstem import ARLSTem
 from nltk.stem.isri import ISRIStemmer
 from tokenizer import *
 from nltk.stem import WordNetLemmatizer
-from indexes import *
-
 import re
+import os,sys,inspect
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+sys.path.append(currentdir+"\\bases")
+from indexes import ArabicStopWordsIndex
 
 class Stemmer:
     
