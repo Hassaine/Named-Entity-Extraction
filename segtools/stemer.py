@@ -1,4 +1,5 @@
 import nltk
+import tokenizer
 from nltk import stem
 from nltk.stem.arlstem import ARLSTem
 from nltk.stem.isri import ISRIStemmer
@@ -9,10 +10,10 @@ from indexes import *
 import re
 
 class Stemmer:
-    @classmethod
+    
     def getStems(self,tokens,flag=False): pass
 
-    @classmethod
+    
     def normalize(self,word): pass
 
 
@@ -60,13 +61,6 @@ class BasicStemmer(Stemmer):
         self.stopWordsIndex=index
 
 
-'''
-tokens=tokenize("input.txt")
-print("Tokenization result : ",str(tokens))
-
-getstem(tokens)
-BasicStemmer().loadStemsDictionnary()
-'''
 
 
 
