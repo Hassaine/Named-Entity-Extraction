@@ -3,6 +3,7 @@ from flask import Flask
 from flask_restful import Api, Resource, reqparse, request
 from flask import jsonify, make_response
 import os, sys, inspect
+import simplejson as json
 
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parentdir = os.path.dirname(currentdir)
@@ -25,14 +26,21 @@ def call():
 @app.route('/tag-text', methods=['POST'])
 def tagText():
     try:
-        x = request.args.get('text')
+        
         content = request.get_json(force=True)
+        
         if (content["Function"] == "taggText"):
+
             tagged_words = HMM().tagText(content["Text"])[:200]
-            print(tagged_words)
-    except:
+            response_body = {
+                "Flag": "Sucess",
+                "Result": json.dumps(tagged_words,encoding="windows-1256")
+            }
+            return make_response(jsonify(response_body), 200)
+    except Exception as e:
+        print(e)
         return make_response(jsonify({"Flag": "Fail",
-                                      "Message": "An error has occured"
+                                      "Message": "An error has occured"+"\n \t"+str(e)
                                       }), 400)
 
 

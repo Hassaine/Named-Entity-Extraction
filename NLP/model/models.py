@@ -71,11 +71,13 @@ class HMM(Model):
 
 
         if not bool(self.EMISSION_MATRIX):
-            if not os.path.exists('obj\\hmm\\emissionTable.pkl'):
+            if not os.path.exists('obj/hmm/emissionTable.json'):
                 print("Emission table not found in Disk, reconstructing and saving ....")
                 import glob
-                os.chdir("../corpus/sources/emission")
+                print(position)
+                os.chdir(position.replace("\\","/")+"/../corpus/sources/emission")
                 emissionSources =[os.path.abspath(el) for el in list(glob.glob("*.txt")) ]
+
                 os.chdir(position)
                 self.EMISSION_MATRIX = self.constructEmissionMatrix(emissionSources)
                 saveIndex(self.EMISSION_MATRIX,"obj\\hmm\\emissionTable.pkl")
@@ -85,7 +87,7 @@ class HMM(Model):
                 print("Emission table loaded from Disk ...")
 
         if not bool(self.TRANSITION_MATRIX):
-            if not os.path.exists('obj/hmm/transitionTable.pkl'):
+            if not os.path.exists('obj/hmm/transitionTable.json'):
                 print("Transition table not found in Disk, reconstructing and saving ....")
                 import glob
                 os.chdir("../corpus/sources/transition")
