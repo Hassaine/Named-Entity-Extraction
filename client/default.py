@@ -18,13 +18,14 @@ def hello():
     return "Hello World!"
 @app.route('/hello', methods=['GET'])
 def call():
-    x=request.args.get('ticket_id')
+    x=request.args.get('text')
     print(x)
     return "hello"
 
 @app.route('/tag-text', methods=['POST'])
-def tagText(text):
+def tagText():
     try:
+        x = request.args.get('text')
         content = request.get_json(force=True)
         if (content["Function"] == "taggText"):
             tagged_words = HMM().tagText(content["Text"])[:200]
