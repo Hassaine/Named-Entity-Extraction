@@ -13,11 +13,16 @@ from models import HMM
 app = Flask(__name__)
 api = Api(app)
 
+@app.route('/')
+def hello():
+    return "Hello World!"
 @app.route('/hello', methods=['GET'])
-def call(text):
+def call():
+    x=request.args.get('ticket_id')
+    print(x)
     return "hello"
 
-@app.route('/tag-text', methods=['GET'])
+@app.route('/tag-text', methods=['POST'])
 def tagText(text):
     try:
         content = request.get_json(force=True)
@@ -65,7 +70,7 @@ def postJsonHandler():
 
 if __name__ == '_main_':
     while True:
-        app.run(debug=True, port=8000)
+        app.run(debug=True, port=5000)
 
 
 
