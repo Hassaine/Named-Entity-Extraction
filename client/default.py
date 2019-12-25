@@ -6,13 +6,6 @@ from flask import jsonify, make_response
 app = Flask(__name__)
 api = Api(app)
 
-@app.route('/query-example')
-def query_example():
-    return 'salut'
-#This is the tag function suggested by FAYÇAL just to test nothing special
-def tag(text):
-    return text.replace("Some","Big")
-
 @app.route('/tag-text', methods = ['GET'])
 def tagText(text):
     try:
@@ -20,7 +13,9 @@ def tagText(text):
         if(content["Function"]=="taggText"):
             pass
     except:
-        return make_response(jsonify({"Flag":"Fail","Message": "An error has occured"}), 400)    
+        return make_response(jsonify({"Flag":"Fail",
+                                      "Message": "An error has occured"
+                                      }), 400)
 
 @app.route('/query-json', methods=['GET', 'POST'])
 def add_message():
@@ -53,6 +48,5 @@ def postJsonHandler():
         return make_response(jsonify({"Flag":"Fail","Message": "Request body must be JSON"}), 400)
 
 
-#LET'S THE HUNGER GAME BEGIIIIIIN'S
 if __name__ == '_main_':
     app.run(debug=True,port=8000)
