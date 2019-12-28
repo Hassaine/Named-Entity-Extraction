@@ -13,6 +13,7 @@ sys.path.append(parentdir+"\\bases")
 sys.path.append(parentdir+"\\statics")
 import nltk
 from nltk import defaultdict,ConditionalFreqDist
+from nltk import bigrams,trigrams,ngrams
 import numpy
 import re
 
@@ -157,8 +158,8 @@ class HMM(Model):
             file.close()
 
         tokens=[el for el in re.split("[\s\n]+",fileFinal) if el!='']
-        bigrams = list(nltk.bigrams(tokens))
-        for (w1,w2) in bigrams:
+        Bigrams = list(nltk.bigrams(tokens))
+        for (w1,w2) in Bigrams:
             if w1 not in transition:
                 transition[w1]=defaultdict(float)
             if w2 not in transition[w1]:
@@ -181,32 +182,57 @@ class HMM(Model):
     
     def __viterbi(self,observations:list,emissionTable:dict,transitionTable:dict):
         N=len(transitionTable)
+        
         T=len(observations)
-        viterbi=numpy.ndarray(shape=( N+2,T ) )
+        viterbi=numpy.zeros(( N+2,T ) )
+        
+        
+        # the intialProba is independent of the transition proba
+        initialProbability = transitionTable["<S>"]
+      
         tags=[el for el in list(transitionTable.keys())]
+        
+        #we remove the <S> from TAGS  because its just a sign of sentence start
+        tags.remove('<S>')
+        N-=1
+		 
+		
+		
         backTrack=[]
 
-
         for i in range(N):
-
             if tags[i]!="<S>" and tags[i]!="<E>":
                 if tags[i] not in emissionTable:
                     emissionTable[tags[i]]=defaultdict(float)
-                viterbi[i,0]=(emissionTable[tags[i]][observations[0]] if observations[0] in emissionTable[tags[i]] else 0.0)*\
-                         (transitionTable["<S>"][tags[i]] if tags[i] in transitionTable["<S>"] else 0.0)
+                viterbi[i,0]=round(float("{0:.6f}".format((emissionTable[tags[i]][observations[0]] if observations[0] in emissionTable[tags[i]] else  0.0)*(initialProbability[tags[i]] if tags[i] in initialProbability else 0.0))),6)
 
-        for oIndex in range(1,T):
-            for tIndex in range(N):
-                bestTagIndex=numpy.argmax([viterbi[i,oIndex-1] for i  in range(N)])
-                bestTag=tags[bestTagIndex]
-                backTrack.append((observations[oIndex-1],bestTag))
-                viterbi[tIndex,oIndex]=viterbi[bestTagIndex,oIndex-1]*\
-                                       (emissionTable[tags[i]][observations[oIndex]] if observations[oIndex] in emissionTable[tags[i]] else 0.0)*\
-                                       (transitionTable[bestTag][tags[i]] if tags[i] in transitionTable[bestTag] else 0.0)
         
+        
+        
+		
+		
+        for oIndex in range(1,T):
+            bestTagIndex=numpy.argmax([viterbi[i,oIndex-1] for i  in range(N)])
+            bestTag=tags[bestTagIndex]
+            backTrack.append((observations[oIndex-1],bestTag))   
+            for tIndex in range(N):
+                if tags[tIndex]=='<E>':continue
+                
+                viterbi[tIndex,oIndex]=viterbi[bestTagIndex,oIndex-1]*\
+                                       (emissionTable[tags[tIndex]][observations[oIndex]] if observations[oIndex] in emissionTable[tags[tIndex]] else 0.0)*\
+                                       (transitionTable[bestTag][tags[tIndex]] if tags[tIndex] in transitionTable[bestTag] else 0.0)
 
 
-        print(viterbi.view())
+                #if the observation belong to another TAG then OTHER we eliminate OTHER ps: the index of the tag OTHER on TAGS array is 0
+                if(tIndex>0 and  viterbi[tIndex,oIndex]>0.0 ) :
+                    viterbi[0,oIndex]=0.0;
+					
+					
+        #we save the backtrack of the last Observation
+        bestTagIndex=numpy.argmax([viterbi[i,T-1] for i  in range(N)])
+        bestTag=tags[bestTagIndex]
+        backTrack.append((observations[T-1],bestTag)) 
+        
         return backTrack
 
 
@@ -231,6 +257,135 @@ class HMM(Model):
 
 
     def evaluate(self,expected,results):pass
+
+
+class TrigramHMM(HMM):
+
+    def __init__(self, stemmer=BasicStemmer()):
+        super(TrigramHMM, self).__init__(stemmer)
+        self.EMISSION_MATRIX = None
+        self.TRANSITION_MATRIX = None
+
+
+    def constructEmissionMatrix(self, sourceFilesList: list):
+        # construction of the emission matrix
+        emission = defaultdict(dict)
+        for tag in NE_TAG_lABELS:
+            emission[tag] = defaultdict(float)
+        for fileName in sourceFilesList:
+            file = open(fileName, 'r', encoding='windows-1256')
+            for line in file:
+                words = re.split("\s+", line)
+                entite = ''
+                for word in words:
+                    if (re.findall('[A-Z]+', word) == []):
+                        entite = word
+
+                        continue
+
+                    emission[word][entite] += 1
+
+            file.close()
+
+        for tag in emission.keys():
+            somme = 0.0
+            for value in emission[tag].values():
+                somme += value
+            for word in emission[tag].keys():
+                emission[tag][word] = round(float("{0:.6f}".format(emission[tag][word] / somme)), 6)
+
+        self.EMISSION_MATRIX = emission
+        return emission
+
+    def constructTransitionMatrix(self,sourceFilesList:list):
+        #construction of the transition matrix
+        transition={}
+        for fileName in sourceFilesList:
+            file = open(fileName,'r',encoding="windows-1256")
+            fileFinal=""
+            for line in file:
+                line=line.upper()
+                if(len(line)>1):
+                    if not line.startswith("<S>"):
+                        fileFinal+='<S> '+line[:-1]+' <E>\n'
+                    else :
+                        fileFinal+=line[:-1]+'\n'   
+            file.close()
+
+        tokens=[el for el in re.split("[\s\n]+",fileFinal) if el!='']
+        Trigrams = list(trigrams(tokens))
+        for (w1,w2) in Trigrams:
+            if w1 not in transition:
+                transition[w1]=defaultdict(float)
+            if w2 not in transition[w1]:
+                transition[w1][w2]=0.0
+
+            transition[w1][w2]+=1   
+
+        for tag in transition.keys():
+             somme=0.0
+             for value in transition[tag].values():
+                 somme+=value
+             for successor in transition[tag].keys():
+                 transition[tag][successor]= round(float("{0:.6f}".format(transition[tag][successor]/somme)),6)         
+
+        
+        
+        self.TRANSITION_MATRIX=transition
+        return transition
+
+    def __viterbi(self, observations: list, emissionTable: dict, transitionTable: dict):
+        N = len(transitionTable)
+
+        T = len(observations)
+        viterbi = numpy.zeros((N + 2, T))
+
+        # the intialProba is independent of the transition proba
+        initialProbability = transitionTable["<S>"]
+
+        tags = [el for el in list(transitionTable.keys())]
+
+        # we remove the <S> from TAGS  because its just a sign of sentence start
+        tags.remove('<S>')
+        N -= 1
+
+        backTrack = []
+
+        for i in range(N):
+            if tags[i] != "<S>" and tags[i] != "<E>":
+                if tags[i] not in emissionTable:
+                    emissionTable[tags[i]] = defaultdict(float)
+                viterbi[i, 0] = round(float("{0:.6f}".format(
+                    (emissionTable[tags[i]][observations[0]] if observations[0] in emissionTable[tags[i]] else 0.0) * (
+                        initialProbability[tags[i]] if tags[i] in initialProbability else 0.0))), 6)
+
+        for oIndex in range(1, T):
+            bestTagIndex = numpy.argmax([viterbi[i, oIndex - 1] for i in range(N)])
+            bestTag = tags[bestTagIndex]
+            backTrack.append((observations[oIndex - 1], bestTag))
+            for tIndex in range(N):
+                if tags[tIndex] == '<E>': continue
+
+                viterbi[tIndex, oIndex] = viterbi[bestTagIndex, oIndex - 1] * \
+                                          (emissionTable[tags[tIndex]][observations[oIndex]] if observations[oIndex] in
+                                                                                                emissionTable[tags[
+                                                                                                    tIndex]] else 0.0) * \
+                                          (transitionTable[bestTag][tags[tIndex]] if tags[tIndex] in transitionTable[
+                                              bestTag] else 0.0)
+
+                # if the observation belong to another TAG then OTHER we eliminate OTHER ps: the index of the tag OTHER on TAGS array is 0
+                if (tIndex > 0 and viterbi[tIndex, oIndex] > 0.0):
+                    viterbi[0, oIndex] = 0.0;
+
+        # we save the backtrack of the last Observation
+        bestTagIndex = numpy.argmax([viterbi[i, T - 1] for i in range(N)])
+        bestTag = tags[bestTagIndex]
+        backTrack.append((observations[T - 1], bestTag))
+
+        return backTrack
+        
+    def evaluate(self, expected, results):
+        pass
 
 
 if __name__=='__main__':

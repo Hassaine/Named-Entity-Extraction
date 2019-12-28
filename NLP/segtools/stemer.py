@@ -32,7 +32,7 @@ class BasicStemmer(Stemmer):
 
         for token in tokens:
             #token=stemmer.norm(token)
-            root=self.stemmer.stem(token)
+            root=self.stemmer.pre32(token)
             rootList.append(root)
             print(token,"  :  ",root)
 
