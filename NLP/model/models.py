@@ -41,8 +41,9 @@ staticMethods.position=position
 
 class Model:
 
-    def __init__(self,stemmer=BasicStemmer()):
+    def __init__(self,stemmer=BasicStemmer(),backoff:Model=None):
         self.stemmer=stemmer
+        self.bacckoff=backoff
 
     
     def saveModel(self,name:str,type="obj"):
@@ -60,13 +61,15 @@ class Model:
 
     def tagTokens(self,tokens:list,algorithm="Viterbi"):pass
 
+    def backOffPrent(self,backTrack:list): pass
+
     def evaluate(self,expected,results):pass
 
 
 class HMM(Model):
 
-    def __init__(self,stemmer=BasicStemmer()):
-        super(HMM, self).__init__(stemmer)
+    def __init__(self,stemmer=BasicStemmer(),backoff:Model=None):
+        super(HMM, self).__init__(stemmer,backoff)
         self.EMISSION_MATRIX=None
         self.TRANSITION_MATRIX = None
         self.transMatrix_file_save_name="transitionTable"
@@ -124,6 +127,8 @@ class HMM(Model):
                         entite=word
 
                         continue
+                    if word not in emission:
+                        emission[word] = defaultdict(float)
 
                     emission[word][entite]+=1
 
@@ -266,8 +271,8 @@ class HMM(Model):
 
 class TrigramHMM(HMM):
 
-    def __init__(self, stemmer=BasicStemmer()):
-        super(TrigramHMM, self).__init__(stemmer)
+    def __init__(self, stemmer=BasicStemmer(),backoff:Model=None):
+        super(TrigramHMM, self).__init__(stemmer,backoff)
         self.EMISSION_MATRIX = None
         self.TRANSITION_MATRIX = None
         self.transMatrix_file_save_name="trigram_transitionTable"
@@ -439,6 +444,13 @@ class TrigramHMM(HMM):
         bestTagIndex = numpy.argmax([viterbi[i, T - 1] for i in range(N)])
         bestTag = self.tags[bestTagIndex]
         backTrack.append((observations[T - 1], bestTag))
+
+        for (word,tag) in backTrack:
+            if tag=='UNKNWN':
+                if self.bacckoff is None:
+                    tag="OTHER"
+                else:
+                    self.bacckoff.backOffPrent(backTrack)
 
         return backTrack
 
