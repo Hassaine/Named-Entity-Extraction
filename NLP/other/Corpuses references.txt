@@ -1,0 +1,7 @@
+- EmenaMor : Arabic-named-entity-recognition :
+
+	https://github.com/EmnamoR/Arabic-named-entity-recognition/blob/master/ANERCorp.rar
+
+- Classical-Arabic-Named-Entity-Recognition-Corpus:
+
+	https://github.com/RamziSalah/Classical-Arabic-Named-Entity-Recognition-Corpus

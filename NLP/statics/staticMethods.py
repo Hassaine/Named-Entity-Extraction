@@ -1,6 +1,6 @@
 
-import pickle
-import os,sys
+import pickle,_compat_pickle
+import os,sys,jsonpickle
 import re
 position=""
 
@@ -22,17 +22,20 @@ def loadIndexJson(index='emission.json'):
     """
     import simplejson as json
     with open(index, 'r', encoding='windows-1256') as f:
-        return json.load(f)
+        #return json.load(f)
+        return jsonpickle.decode(f.read())
 
 
 ## load and save the index as JSON file   "in construction"
-def saveIndexjson(index, output='emission.json'):
+def saveIndexjson(index, output):
     """
     loading data methods
     """
     import simplejson as json
+    frozen = jsonpickle.encode(index)
     with open(output, 'w+', encoding='windows-1256') as fp:
-        json.dump(index, fp, indent=' ',ensure_ascii=False,encoding="windows-1256")
+        #json.dump(index, fp, indent=' ',ensure_ascii=False,encoding="windows-1256")
+        print(frozen, file=fp)
 
 
 ## load and save the index as BINAIRE FILE
@@ -41,7 +44,7 @@ def saveIndex(index, path):
     loading data methods
     binary file
     """
-    import pickle
+
     path.replace("\\", "//")
 
     try:
@@ -64,16 +67,18 @@ def saveIndex(index, path):
 
 
     with open(path, 'wb') as fp:
+
+
         pickle.dump(index, fp, protocol=pickle.HIGHEST_PROTOCOL)
 
 
-def loadIndex(fileName="emission.pkl"):
+def loadIndex(fileName):
     """
     loading data methods
     binary file
     """
     import pickle
-    with open(os.path.join(position, fileName), 'rb') as fp:
+    with open( fileName, 'rb') as fp:
         return pickle.load(fp)
 
 

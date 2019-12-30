@@ -1,0 +1,1750 @@
+ Џбнё	OTHER
+г’ЎЁм	PERSON
+«б»џ«	PERSON
+1	NUMBER
+1	NUMBER
+3	NUMBER
+‘	OTHER
+***
+√ќ—ће	OTHER
+г”бг	PERSON
+Ён	OTHER
+я «»	OTHER
+«б√‘—»…	OTHER
+»ёжбе	OTHER
+ёжбе	OTHER
+’бм	OTHER
+«ббе	ALLAH
+Џбне	OTHER
+ж”бг	OTHER
+***
+≈дг«	OTHER
+«б√Џг«б	OTHER
+»«бдн…	OTHER
+***
+—ёг	OTHER
+1907	NUMBER
+***
+≈дг«	OTHER
+«б√Џг«б	OTHER
+»«бдн« 	OTHER
+***
+√н	OTHER
+’Ќ…	OTHER
+г«	OTHER
+нёЏ	OTHER
+гд	OTHER
+«бгябЁ	OTHER
+гд	OTHER
+ёжб	OTHER
+√ж	OTHER
+ЁЏб	OTHER
+√ж	OTHER
+яг«бе	OTHER
+***
+ж — н»	OTHER
+«бЋж«»	OTHER
+Џбне	OTHER
+б«	OTHER
+няжд	OTHER
+≈б«	OTHER
+Ќ”»	OTHER
+г«	OTHER
+нджне	OTHER
+***
+ж	OTHER
+«бдн« 	OTHER
+ћгЏ	OTHER
+дн…	OTHER
+жен	OTHER
+«бё’ѕ	OTHER
+жЏ“г	OTHER
+«бёб»	OTHER
+Џбм	OTHER
+√г—	OTHER
+гд	OTHER
+«б√гж—	OTHER
+***
+ећ— е	OTHER
+«бећ—…	OTHER
+Ён	OTHER
+«ббџ…	OTHER
+«бќ—жћ	OTHER
+гд	OTHER
+√—÷	OTHER
+≈бм	OTHER
+√—÷	OTHER
+жгЁ«—ё…	OTHER
+«бжЎд	OTHER
+ж«б√еб	OTHER
+***
+г‘ ё…	OTHER
+гд	OTHER
+«бећ—	OTHER
+***
+жеж	OTHER
+÷ѕ	OTHER
+«бж’б	OTHER
+***
+ж‘—Џ«	OTHER
+ен	OTHER
+гЁ«—ё…	OTHER
+ѕ«—	OTHER
+«бяЁ—	OTHER
+≈бм	OTHER
+ѕ«—	OTHER
+«б≈”б«г	OTHER
+ќжЁ	OTHER
+«бЁ д…	OTHER
+жё’ѕ«	OTHER
+б≈ё«г…	OTHER
+‘Џ«∆—	OTHER
+«бѕнд	OTHER
+***
+ж«бг—«ѕ	OTHER
+»е«	OTHER
+ед«	OTHER
+«бќ—жћ	OTHER
+гд	OTHER
+гя…	LOC
+жџн—е«	OTHER
+≈бм	OTHER
+гѕнд…	LOC
+—”жб	LOC
+«ббе	LOC
+’бм	OTHER
+«ббе	ALLAH
+Џбне	OTHER
+ж”бг	OTHER
+***
+н’н»е«	OTHER
+нЌ’бе«	OTHER
+ндяЌе«	OTHER
+н “жће«	OTHER
+***
+Ёећ— е	OTHER
+≈бм	OTHER
+г«	OTHER
+е«ћ—	OTHER
+≈бне	OTHER
+***
+√н	OTHER
+ћ“«Ѕ	OTHER
+Џгбе	OTHER
+«бџ—÷	OTHER
+«бѕднжн	OTHER
+«б–н	OTHER
+ё’ѕе	OTHER
+≈д	OTHER
+Ќ’бе	OTHER
+ж≈б«	OTHER
+Ёб«	OTHER
+‘нЅ	OTHER
+бе	OTHER
+***
+ж«бў«е—	OTHER
+√д	OTHER
+«бЌяг…	OTHER
+гд	OTHER
+«б»ѕЅ	OTHER
+»е–«	OTHER
+«бЌѕнЋ	OTHER
+«б д»не	OTHER
+Џбм	OTHER
+«б≈ќб«’	OTHER
+ж ’ЌнЌ	OTHER
+«бдн…	OTHER
+гд	OTHER
+яб	OTHER
+Ў«б»	OTHER
+Џбг	OTHER
+жгЏбг	OTHER
+√ж	OTHER
+г Џбг	OTHER
+***
+ж√д	OTHER
+Ў«б»	OTHER
+«бЏбг	OTHER
+Џ«г…	OTHER
+ж«бЌѕнЋ	OTHER
+ќ«’…	OTHER
+»гд“б…	OTHER
+«бге«ћ—	OTHER
+≈бм	OTHER
+«ббе	ALLAH
+ Џ«бм	OTHER
+ж—”жбе	PROPHET
+’бм	OTHER
+«ббе	ALLAH
+Џбне	OTHER
+ж”бг	OTHER
+***
+54	NUMBER
+2392	NUMBER
+3685	NUMBER
+4783	NUMBER
+6311	NUMBER
+6553	NUMBER
+2	NUMBER
+ЌѕЋд«	OTHER
+Џ»ѕ	PERSON
+«ббе	PERSON
+»д	PERSON
+нж”Ё	PERSON
+***
+ё«б	OTHER
+√ќ»—д«	OTHER
+г«бя	PERSON
+Џд	OTHER
+е‘«г	PERSON
+»д	PERSON
+Џ—ж…	PERSON
+Џд	OTHER
+√»не	OTHER
+Џд	OTHER
+Џ«∆‘…	PERSON
+√г	OTHER
+«бгƒгднд	OTHER
+—÷н	OTHER
+«ббе	ALLAH
+Џде«	OTHER
+***
+√д	OTHER
+«бЌ«—Ћ	PERSON
+»д	PERSON
+е‘«г	PERSON
+—÷н	OTHER
+«ббе	ALLAH
+Џде	OTHER
+”√б	OTHER
+—”жб	PROPHET
+«ббе	PROPHET
+’бм	OTHER
+«ббе	ALLAH
+Џбне	OTHER
+ж”бг	OTHER
+***
+Ёё«б	OTHER
+н«	OTHER
+—”жб	PROPHET
+«ббе	PROPHET
+янЁ	OTHER
+н√ ня	OTHER
+«бжЌнњ	OTHER
+***
+Ёё«б	OTHER
+—”жб	PROPHET
+«ббе	PROPHET
+’бм	OTHER
+«ббе	ALLAH
+Џбне	OTHER
+ж”бг	OTHER
+√Ќн«д«	OTHER
+н√ ндн	OTHER
+гЋб	OTHER
+’б’б…	OTHER
+«бћ—”	OTHER
+***
+жеж	OTHER
+√‘ѕе	OTHER
+Џбн	OTHER
+***
+ЁнЁ’г	OTHER
+Џдн	OTHER
+жёѕ	OTHER
+жЏн 	OTHER
+Џде	OTHER
+г«	OTHER
+ё«б	OTHER
+***
+ж√Ќн«д«	OTHER
+н гЋб	OTHER
+бн	OTHER
+«бгбя	OTHER
+—ћб«	OTHER
+Ёнябгдн	OTHER
+Ё√Џн	OTHER
+г«	OTHER
+нёжб	OTHER
+***
+’	OTHER
+7	NUMBER
+***
+ё«б 	OTHER
+Џ«∆‘…	PERSON
+—÷н	OTHER
+«ббе	ALLAH
+Џде«	OTHER
+***
+жбёѕ	OTHER
+—√н е	OTHER
+нд“б	OTHER
+Џбне	OTHER
+«бжЌн	OTHER
+Ён	OTHER
+«бнжг	OTHER
+«б‘ѕнѕ	OTHER
+«б»—ѕ	OTHER
+ЁнЁ’г	OTHER
+Џде	OTHER
+ж≈д	OTHER
+ћ»нде	OTHER
+бн Ё’ѕ	OTHER
+Џ—ё«	OTHER
+***
+ Џбнё	OTHER
+г’ЎЁм	PERSON
+«б»џ«	PERSON
+***
+2	NUMBER
+1	NUMBER
+4	NUMBER
+‘	OTHER
+***
+√ќ—ће	OTHER
+г”бг	PERSON
+Ён	OTHER
+«б√‘—»…	OTHER
+***
+»«»	OTHER
+Ўн»	OTHER
+Џ—ё	OTHER
+«бд»н	PROPHET
+’бм	OTHER
+«ббе	ALLAH
+Џбне	OTHER
+ж”бг	OTHER
+Ён	OTHER
+«б»—ѕ	OTHER
+жЌнд	OTHER
+н√ не	OTHER
+«бжЌн	OTHER
+***
+—ёг	OTHER
+2333	NUMBER
+***
+’б’б…	OTHER
+ен	OTHER
+’ж 	OTHER
+«бЌѕнѕ	OTHER
+≈–«	OTHER
+Ќ—я	OTHER
+***
+ж Ўбё	OTHER
+Џбм	OTHER
+яб	OTHER
+’ж 	OTHER
+бе	OTHER
+Ўднд	OTHER
+***
+ж«бг‘»е	OTHER
+ед«	OTHER
+’ж 	OTHER
+«бгбя	OTHER
+»«бжЌн	OTHER
+***
+ЁнЁ’г	OTHER
+нёбЏ	OTHER
+***
+ж√’б	OTHER
+«бЁ’г	OTHER
+«бёЎЏ	OTHER
+гд	OTHER
+џн—	OTHER
+≈»«д…	OTHER
+***
+жЏн 	OTHER
+Ёег 	OTHER
+жЌЁў 	OTHER
+***
+бн Ё’ѕ	OTHER
+н”нб	OTHER
+гд	OTHER
+«бЁ’ѕ	OTHER
+жеж	OTHER
+ёЎЏ	OTHER
+«бЏ—ё	OTHER
+б≈”«б…	OTHER
+«бѕг	OTHER
+***
+‘»е	OTHER
+«бћ»нд	OTHER
+»«бЏ—ё	OTHER
+«бгЁ’жѕ	OTHER
+г»«бџ…	OTHER
+гд	OTHER
+яЋ—…	OTHER
+Џ—ёе	OTHER
+***
+3043	NUMBER
+3	NUMBER
+***
+ЌѕЋд«	OTHER
+нЌнм	PERSON
+»д	PERSON
+»ян—	PERSON
+ё«б	OTHER
+***
+ЌѕЋд«	OTHER
+«ббнЋ	PERSON
+Џд	OTHER
+Џёнб	PERSON
+Џд	OTHER
+«»д	PERSON
+‘е«»	PERSON
+Џд	OTHER
+Џ—ж…	PERSON
+»д	PERSON
+«б“»н—	PERSON
+Џд	OTHER
+Џ«∆‘…	PERSON
+√г	OTHER
+«бгƒгднд	OTHER
+√де«	OTHER
+ё«б 	OTHER
+***
+√жб	OTHER
+г«	OTHER
+»ѕ∆	OTHER
+»е	OTHER
+—”жб	PROPHET
+«ббе	PROPHET
+’бм	OTHER
+«ббе	ALLAH
+Џбне	OTHER
+ж”бг	OTHER
+гд	OTHER
+«бжЌн	OTHER
+«б—ƒн«	OTHER
+«б’«бЌ…	OTHER
+Ён	OTHER
+«бджг	OTHER
+***
+Ёя«д	OTHER
+б«	OTHER
+н—м	OTHER
+—ƒн«	OTHER
+≈б«	OTHER
+ћ«Ѕ 	OTHER
+гЋб	OTHER
+Ёбё	OTHER
+«б’»Ќ	OTHER
+***
+Ћг	OTHER
+Ќ»»	OTHER
+≈бне	OTHER
+«бќб«Ѕ	OTHER
+***
+жя«д	OTHER
+нќбж	OTHER
+»џ«—	LOC
+Ќ—«Ѕ	LOC
+Ён ЌдЋ	OTHER
+Ёне	OTHER
+жеж	OTHER
+«б Џ»ѕ	OTHER
+«ббн«бн	OTHER
+–ж« 	OTHER
+«бЏѕѕ	OTHER
+ё»б	OTHER
+√д	OTHER
+нд“Џ	OTHER
+≈бм	OTHER
+√ебе	OTHER
+жн “жѕ	OTHER
+б–бя	OTHER
+***
+Ћг	OTHER
+н—ћЏ	OTHER
+≈бм	OTHER
+ќѕнћ…	PERSON
+Ён “жѕ	OTHER
+бгЋбе«	OTHER
+***
+Ќ м	OTHER
+ћ«Ѕе	OTHER
+«бЌё	OTHER
+жеж	OTHER
+Ён	OTHER
+џ«—	LOC
+Ќ—«Ѕ	LOC
+***
+Ёћ«Ѕе	OTHER
+«бгбя	OTHER
+Ёё«б	OTHER
+«ё—√	OTHER
+***
+ё«б	OTHER
+г«	OTHER
+√д«	OTHER
+»ё«—∆	OTHER
+***
+ё«б	OTHER
+Ё√ќ–дн	OTHER
+ЁџЎдн	OTHER
+Ќ м	OTHER
+»бџ	OTHER
+гдн	OTHER
+«бћеѕ	OTHER
+***
+Ћг	OTHER
+√—”бдн	OTHER
+Ёё«б	OTHER
+«ё—√	OTHER
+ёб 	OTHER
+г«	OTHER
+√д«	OTHER
+»ё«—∆	OTHER
+***
+Ё√ќ–дн	OTHER
+ЁџЎдн	OTHER
+«бЋ«дн…	OTHER
+Ќ м	OTHER
+»бџ	OTHER
+гдн	OTHER
+«бћеѕ	OTHER
+Ћг	OTHER
+√—”бдн	OTHER
+Ёё«б	OTHER
+«ё—√	OTHER
+***
+Ёёб 	OTHER
+г«	OTHER
+√д«	OTHER
+»ё«—∆	OTHER
+***
+Ё√ќ–дн	OTHER
+ЁџЎдн	OTHER
+«бЋ«бЋ…	OTHER
+Ћг	OTHER
+√—”бдн	OTHER
+Ёё«б	OTHER
+***
+«ё—√	OTHER
+»«”г	OTHER
+—»я	ALLAH
+«б–н	OTHER
+ќбё	OTHER
+***
+ќбё	OTHER
+«б≈д”«д	OTHER
+гд	OTHER
+Џбё	OTHER
+***
+«ё—√	OTHER
+ж—»я	ALLAH
+«б√я—г	OTHER
+***
+«бЏбё	OTHER
+2	NUMBER
+***
+Ё—ћЏ	OTHER
+»е«	OTHER
+—”жб	PROPHET
+«ббе	PROPHET
+’бм	OTHER
+«ббе	ALLAH
+Џбне	OTHER
+ж”бг	OTHER
+н—ћЁ	OTHER
+Ёƒ«ѕе	OTHER
+***
+Ёѕќб	OTHER
+Џбм	OTHER
+ќѕнћ…	PERSON
+»д 	PERSON
+ќжнбѕ	PERSON
+—÷н	OTHER
+«ббе	ALLAH
+Џде«	OTHER
+***
+Ёё«б	OTHER
+“гбждн	OTHER
+“гбждн	OTHER
+***
+Ё“гбже	OTHER
+Ќ м	OTHER
+–е»	OTHER
+Џде	OTHER
+«б—жЏ	OTHER
+***
+Ёё«б	OTHER
+бќѕнћ…	PERSON
+ж√ќ»—е«	OTHER
+«бќ»—	OTHER
+***
+бёѕ	OTHER
+ќ‘н 	OTHER
+Џбм	OTHER
+дЁ”н	OTHER
+***
+Ёё«б 	OTHER
+ќѕнћ…	PERSON
+яб«	OTHER
+ж«ббе	ALLAH
+г«	OTHER
+нќ“ня	OTHER
+«ббе	ALLAH
+√»ѕ«	OTHER
+***
+≈дя	OTHER
+б ’б	OTHER
+«б—Ќг	OTHER
+ж Ќгб	OTHER
+«бяб	OTHER
+ж я”»	OTHER
+«бгЏѕжг	OTHER
+ж ё—н	OTHER
+«б÷нЁ	OTHER
+ж Џнд	OTHER
+Џбм	OTHER
+дж«∆»	OTHER
+«бЌё	OTHER
+***
+Ё«дЎбё 	OTHER
+»е	OTHER
+ќѕнћ…	PERSON
+Ќ м	OTHER
+√  	OTHER
+»е	OTHER
+ж—ё…	PERSON
+»д	PERSON
+джЁб	PERSON
+»д	PERSON
+√”ѕ	PERSON
+»д	PERSON
+Џ»ѕ	PERSON
+«бЏ“м	PERSON
+«»д	OTHER
+Џг	OTHER
+ќѕнћ…	PERSON
+***
+жя«д	OTHER
+«г—√	OTHER
+ д’—	OTHER
+Ён	OTHER
+«бћ«ебн…	OTHER
+***
+жя«д	OTHER
+ня »	OTHER
+«б√‘—»…	OTHER
+«б√ё÷н…	OTHER
+Ёня »	OTHER
+гд	OTHER
+«б√ё÷н…	OTHER
+»«бЏ»—«дн…	OTHER
+г«	OTHER
+‘«Ѕ	OTHER
+«ббе	ALLAH
+√д	OTHER
+ня »	OTHER
+***
+жя«д	OTHER
+‘нќ«	OTHER
+я»н—«	OTHER
+ёѕ	OTHER
+Џгн	OTHER
+Ёё«б 	OTHER
+бе	OTHER
+ќѕнћ…	PERSON
+***
+н«	OTHER
+«»д	OTHER
+Џг	OTHER
+«”гЏ	OTHER
+гд	OTHER
+«»д	OTHER
+√ќня	OTHER
+***
+Ёё«б	OTHER
+бе	OTHER
+ж—ё…	OTHER
+н«	OTHER
+«»д	OTHER
+√ќн	OTHER
+г«–«	OTHER
+ —мњ	OTHER
+***
+Ё√ќ»—е	OTHER
+—”жб	PROPHET
+«ббе	PROPHET
+’бм	OTHER
+«ббе	ALLAH
+Џбне	OTHER
+ж”бг	OTHER
+ќ»—	OTHER
+г«	OTHER
+—√м	OTHER
+***
+Ёё«б	OTHER
+бе	OTHER
+ж—ё…	OTHER
+е–«	OTHER
+«бд«гж”	OTHER
+«б–н	OTHER
+д“б	OTHER
+«ббе	ALLAH
+Џбм	OTHER
+гж”м	PROPHET
+***
+н«	OTHER
+бн дн	OTHER
+Ёне«	OTHER
+ћ–Џ«	OTHER
+***
+бн дн	OTHER
+√яжд	OTHER
+Ќн«	OTHER
+≈–	OTHER
+нќ—ћя	OTHER
+ёжгя	OTHER
+***
+Ёё«б	OTHER
+—”жб	PROPHET
+«ббе	PROPHET
+’бм	OTHER
+«ббе	ALLAH
+Џбне	OTHER
+ж”бг	OTHER
+√ж	OTHER
+гќ—ћн	OTHER
+ег	OTHER
+***
+ё«б	OTHER
+дЏг	OTHER
+***
+бг	OTHER
+н√ 	OTHER
+—ћб	OTHER
+ёЎ	OTHER
+»гЋб	OTHER
+г«	OTHER
+ћ∆ 	OTHER
+»е	OTHER
+≈б«	OTHER
+Џжѕн	OTHER
+***
+ж≈д	OTHER
+нѕ—ядн	OTHER
+нжгя	OTHER
+√д’—я	OTHER
+д’—«	OTHER
+гƒ“—«	OTHER
+***
+Ћг	OTHER
+бг	OTHER
+нд‘»	OTHER
+ж—ё…	PERSON
+√д	OTHER
+ жЁн	OTHER
+жЁ —	OTHER
+«бжЌн	OTHER
+***
+ Џбнё	OTHER
+г’ЎЁм	PERSON
+«б»џ«	PERSON
+***
+3	NUMBER
+1	NUMBER
+4	NUMBER
+‘	OTHER
+***
+√ќ—ће	OTHER
+г”бг	PERSON
+Ён	OTHER
+«б√ё÷н…	OTHER
+***
+»«»	OTHER
+»ѕЅ	OTHER
+«бжЌн	OTHER
+≈бм	OTHER
+—”жб	PROPHET
+«ббе	PROPHET
+’бм	OTHER
+«ббе	ALLAH
+Џбне	OTHER
+ж”бг	OTHER
+***
+—ёг	OTHER
+160	NUMBER
+***
+«б’«бЌ…	OTHER
+«б’«ѕё…	OTHER
+жен	OTHER
+«б н	OTHER
+нћ—н	OTHER
+Ён	OTHER
+«бнёў…	OTHER
+г«	OTHER
+нж«Ёёе«	OTHER
+***
+Ёбё	OTHER
+«б’»Ќ	OTHER
+÷н«ƒе	OTHER
+ждж—е	OTHER
+***
+жнё«б	OTHER
+е–«	OTHER
+Ён	OTHER
+«б‘нЅ	OTHER
+«бж«÷Ќ	OTHER
+«б»нд	OTHER
+***
+«бќб«Ѕ	OTHER
+«б«дЁ—«ѕ	OTHER
+»џ«—	LOC
+Ќ—«Ѕ	LOC
+***
+«бџ«—	OTHER
+еж	OTHER
+«бдё»	OTHER
+Ён	OTHER
+«бћ»б	OTHER
+***
+Ќ—«Ѕ	LOC
+«”г	OTHER
+бћ»б	OTHER
+гЏ—жЁ	OTHER
+Ён	OTHER
+гя…	LOC
+***
+нд“Џ	OTHER
+н—ћЏ	OTHER
+***
+г«	OTHER
+√д«	OTHER
+»ё«—мЅ	OTHER
+***
+б«	OTHER
+√Џ—Ё	OTHER
+«бё—«Ѕ…	OTHER
+жб«	OTHER
+√Ќ”де«	OTHER
+***
+ЁџЎдн	OTHER
+÷гдн	OTHER
+жЏ’—дн	OTHER
+Ќ м	OTHER
+Ќ»”	OTHER
+дЁ”н	OTHER
+***
+жгЋбе	OTHER
+џ дн	OTHER
+«бћеѕ	OTHER
+џ«н…	OTHER
+ж”Џн	OTHER
+***
+√—”бдн	OTHER
+√Ўбёдн	OTHER
+***
+Џбё	OTHER
+ћгЏ	OTHER
+Џбё…	OTHER
+жен	OTHER
+«бгдн	OTHER
+»Џѕ	OTHER
+√д	OTHER
+н Ќжб	OTHER
+≈бм	OTHER
+ѕг	OTHER
+џбнў	OTHER
+г ћгѕ	OTHER
+***
+ж«б¬н« 	OTHER
+«бг–яж—…	OTHER
+√жб	OTHER
+г«	OTHER
+д“б	OTHER
+гд	OTHER
+«бё—¬д	BOOK
+«бя—нг	BOOK
+***
+жен	OTHER
+√ж«∆б	OTHER
+”ж—…	OTHER
+«бЏбё	OTHER
+***
+н—ћЁ	OTHER
+Ёƒ«ѕе	OTHER
+нќЁё	OTHER
+ёб»е	OTHER
+жн Ќ—я	OTHER
+»‘ѕ…	OTHER
+***
+“гбждн	OTHER
+бЁждн	OTHER
+жџЎждн	OTHER
+***
+«б—жЏ	OTHER
+«бЁ“Џ	OTHER
+**
+г«	OTHER
+нќ“ня	OTHER
+б«	OTHER
+н–бя	OTHER
+жб«	OTHER
+н÷нЏя	OTHER
+***
+б ’б	OTHER
+«б—Ќг	OTHER
+ я—г	OTHER
+«бё—«»…	OTHER
+ж ж«”нег	OTHER
+***
+ Ќгб	OTHER
+«бяб	OTHER
+ ёж	OTHER
+»‘√д	OTHER
+гд	OTHER
+б«	OTHER
+н” ёб	OTHER
+»√г—е	OTHER
+бн г	OTHER
+жџн—е	OTHER
+ж  ж”Џ	OTHER
+»гд	OTHER
+Ёне	OTHER
+Ћёб	OTHER
+жџб«ў…	OTHER
+***
+ я”»	OTHER
+«бгЏжѕг	OTHER
+***
+  »—Џ	OTHER
+»«бг«б	OTHER
+бгд	OTHER
+Џѕге	OTHER
+ж ЏЎн	OTHER
+«бд«”	OTHER
+г«	OTHER
+б«	OTHER
+нћѕжде	OTHER
+Џдѕ	OTHER
+џн—я	OTHER
+***
+ ё—н	OTHER
+«б÷нЁ	OTHER
+ енмЅ	OTHER
+бе	OTHER
+«бё—м	OTHER
+жеж	OTHER
+г«	OTHER
+нёѕг	OTHER
+бб÷нЁ	OTHER
+гд	OTHER
+ЎЏ«г	OTHER
+ж‘—«»	OTHER
+***
+дж«∆»	OTHER
+«бЌё	OTHER
+***
+«бдж«∆»	OTHER
+ћгЏ	OTHER
+д«∆»…	OTHER
+жен	OTHER
+г«	OTHER
+нд“б	OTHER
+»«б≈д”«д	OTHER
+гд	OTHER
+«бгег« 	OTHER
+***
+ж√÷нЁ 	OTHER
+≈бм	OTHER
+«бЌё	OTHER
+б√де«	OTHER
+ яжд	OTHER
+Ён	OTHER
+«бЌё	OTHER
+ж«б»«Ўб	OTHER
+***
+ д’—	OTHER
+ —я	OTHER
+Џ»«ѕ…	OTHER
+«б√жЋ«д	OTHER
+ж«Џ дё	OTHER
+«бд’—«дн…	RELIGION
+***
+«бд«гж”	OTHER
+еж	OTHER
+’«Ќ»	OTHER
+«б”—	OTHER
+ж«бг—«ѕ	OTHER
+ћ»—нб	PERSON
+Џбне	OTHER
+«б”б«г	OTHER
+***
+”гн	OTHER
+»–бя	OTHER
+б«ќ ’«’е	OTHER
+»«бжЌн	OTHER
+Ёне«	OTHER
+Ён	OTHER
+Ќнд	OTHER
+ўеж—	OTHER
+д»ж я	OTHER
+***
+ћ–Џ	OTHER
+‘«»	OTHER
+ж«бћ–Џ	OTHER
+Ён	OTHER
+«б√’б	OTHER
+«б’џн—	OTHER
+гд	OTHER
+«б»е«∆г	OTHER
+Ћг	OTHER
+«” Џн—	OTHER
+бб‘«»	OTHER
+гд	OTHER
+«б≈д”«д	OTHER
+***
+нжгя	OTHER
+нжг	OTHER
+≈ќ—«ћя	OTHER
+√ж	OTHER
+нжг	OTHER
+ўеж—	OTHER
+д»ж я	OTHER
+ж«д ‘«—	OTHER
+ѕндя	OTHER
+***
+гƒ“—«	OTHER
+ёжн«	OTHER
+гд	OTHER
+«б√“—	OTHER
+жеж	OTHER
+«бёж…	OTHER
+***
+нд‘»	OTHER
+нб»Ћ	OTHER
+Ё —	OTHER
+«бжЌн	OTHER
+ √ќ—	OTHER
+Џд	OTHER
+«бд“жб	OTHER
+гѕ…	OTHER
+гд	OTHER
+«б“гд	OTHER
+***
+3212	NUMBER
+4670	NUMBER
+4672	NUMBER
+4674	NUMBER
+6581	NUMBER
+4	NUMBER
+***
+ё«б	OTHER
+«»д	PERSON
+‘е«»	PERSON
+***
+ж√ќ»—дн	OTHER
+√»ж	PERSON
+”бг…	PERSON
+»д	PERSON
+Џ»ѕ	PERSON
+«б—Ќгд	PERSON
+√д	OTHER
+ћ«»—	PERSON
+»д	PERSON
+Џ»ѕ	PERSON
+«ббе	PERSON
+«б√д’«—н	PERSON
+ё«б	OTHER
+жеж	OTHER
+нЌѕЋ	OTHER
+Џд	OTHER
+Ё —…	OTHER
+«бжЌн	OTHER
+***
+Ёё«б	OTHER
+Ён	OTHER
+ЌѕнЋе	OTHER
+***
+»нд«	OTHER
+√д«	OTHER
+√г‘н	OTHER
+≈–	OTHER
+”гЏ 	OTHER
+’ж «	OTHER
+гд	OTHER
+«б”г«Ѕ	OTHER
+***
+Ё—ЁЏ 	OTHER
+»’—н	OTHER
+Ё≈–«	OTHER
+«бгбя	PERSON
+«б–н	OTHER
+ћ«Ѕдн	OTHER
+»Ќ—«Ѕ	LOC
+ћ«б”	OTHER
+Џбм	OTHER
+я—”н	OTHER
+»нд	OTHER
+«б”г«Ѕ	OTHER
+ж«б√—÷	OTHER
+***
+Ё—Џ» 	OTHER
+где	OTHER
+Ё—ћЏ 	OTHER
+Ёёб 	OTHER
+“гбждн	OTHER
+“гбждн	OTHER
+***
+Ё√д“б	OTHER
+«ббе	ALLAH
+ Џ«бм	OTHER
+***
+н«	OTHER
+√не«	OTHER
+«бгѕЋ—	OTHER
+ёг	OTHER
+Ё√д–—	OTHER
+***
+«бгѕЋ—	OTHER
+2	NUMBER
+≈бм	OTHER
+’	OTHER
+8	NUMBER
+ёжбе	OTHER
+***
+ж«б—ћ“	OTHER
+Ё«ећ—	OTHER
+***
+«бгѕЋ—	OTHER
+5	NUMBER
+***
+ЁЌгн	OTHER
+«бжЌн	OTHER
+ж  «»Џ	OTHER
+***
+ «»Џе	OTHER
+Џ»ѕ	PERSON
+«ббе	PERSON
+»д	PERSON
+нж”Ё	PERSON
+ж√»ж	PERSON
+’«бЌ	PERSON
+***
+ж «»Џе	OTHER
+еб«б	PERSON
+»д	PERSON
+—ѕ«ѕ	PERSON
+Џд	OTHER
+«б“е—н	PERSON
+жё«б	OTHER
+нжд”	PERSON
+жгЏг—	PERSON
+»ж«ѕ—е	OTHER
+***
+ Џбнё	OTHER
+г’ЎЁм	PERSON
+«б»џ«	PERSON
+***
+4	NUMBER
+1	NUMBER
+5	NUMBER
+‘	OTHER
+***
+√ќ—ће	OTHER
+г”бг	PERSON
+Ён	OTHER
+«б√нг«д	OTHER
+***
+»«»	OTHER
+»ѕЅ	OTHER
+«бжЌн	OTHER
+≈бм	OTHER
+—”жб	PROPHET
+«ббе	PROPHET
+’бм	OTHER
+«ббе	ALLAH
+Џбне	OTHER
+ж”бг	OTHER
+***
+—ёг	OTHER
+161	NUMBER
+***
+«бгѕЋ—	OTHER
+«бг бЁЁ	OTHER
+»Ћн«»е	OTHER
+***
+ж«б—ћ“	OTHER
+Ё«ећ—	OTHER
+***
+«б—ћ“	OTHER
+Ён	OTHER
+«ббџ…	OTHER
+√б–д»	OTHER
+ж«б≈Ћд	OTHER
+ж«бЏ–«»	OTHER
+ж«бг—«ѕ	OTHER
+»е	OTHER
+ед«	OTHER
+«б√жЋ«д	OTHER
+***
+ж”гн 	OTHER
+—ћ“«	OTHER
+б√де«	OTHER
+”»»е	OTHER
+***
+ж«бећ—	OTHER
+«б —я	OTHER
+ж«бгЏдм	OTHER
+»«бџ	OTHER
+***
+ж«” г—	OTHER
+Ён	OTHER
+ —яя	OTHER
+бб√жЋ«д	OTHER
+***
+ж«б¬н« 	OTHER
+√ж«∆б	OTHER
+”ж—…	OTHER
+«бгѕЋ—	OTHER
+***
+ЁЌгн	OTHER
+«бжЌн	OTHER
+ж  «»Џ	OTHER
+***
+яЋ—	OTHER
+д“жбе	OTHER
+жгћн∆е	OTHER
+***
+ «»Џе	OTHER
+√н	OTHER
+ «»Џ	OTHER
+нЌнм	PERSON
+»д	PERSON
+»ян—	PERSON
+«бЌѕнЋ	OTHER
+«бЋ«бЋ	NUMBER
+***
+Ёя«д	OTHER
+«б√д”»	OTHER
+√д	OTHER
+ √ н	OTHER
+е–е	OTHER
+«бг «»Џ…	OTHER
+ё»б	OTHER
+ЌѕнЋ	OTHER
+ћ«»—	PERSON
+—÷н	OTHER
+«ббе	ALLAH
+Џде	OTHER
+***
+»ж«ѕ—е	OTHER
+√н	OTHER
+ё«б	OTHER
+ —ћЁ	OTHER
+»ж«ѕ—е	OTHER
+»ѕб	OTHER
+н—ћЁ	OTHER
+Ёƒ«ѕе	OTHER
+***
+ћгЏ	OTHER
+»«ѕ—…	OTHER
+жен	OTHER
+«ббЌг…	OTHER
+«б н	OTHER
+»нд	OTHER
+«бгдя»	OTHER
+ж«бЏдё	OTHER
+жен	OTHER
+ ÷Ў—»	OTHER
+Џдѕ	OTHER
+Ё“Џ	OTHER
+«б≈д”«д	OTHER
+***
+3066	NUMBER
+4638	NUMBER
+4671	NUMBER
+5860	NUMBER
+5	NUMBER
+***
+ЌѕЋд«	OTHER
+гж”м	PERSON
+»д	PERSON
+≈”г«Џнб	PERSON
+ё«б	OTHER
+ЌѕЋд«	OTHER
+√»ж	PERSON
+Џж«д…	PERSON
+ё«б	OTHER
+***
+ЌѕЋд«	OTHER
+гж”м	PERSON
+»д	PERSON
+√»н	PERSON
+Џ«∆‘…	PERSON
+ё«б	OTHER
+ЌѕЋд«	OTHER
+”Џнѕ	PERSON
+»д	PERSON
+ћ»н—	PERSON
+Џд	OTHER
+«»д	PERSON
+Џ»«”	PERSON
+Ён	OTHER
+ёжбе	OTHER
+ Џ«бм	OTHER
+***
+б«	OTHER
+ Ќ—я	OTHER
+»е	OTHER
+б”«дя	OTHER
+б Џћб	OTHER
+»е	OTHER
+***
+«бён«г…	OTHER
+16	NUMBER
+***
+ё«б	OTHER
+я«д	OTHER
+—”жб	PROPHET
+«ббе	PROPHET
+’бм	OTHER
+«ббе	ALLAH
+Џбне	OTHER
+ж”бг	OTHER
+нЏ«бћ	OTHER
+гд	OTHER
+«б д“нб	OTHER
+‘ѕ…	OTHER
+***
+жя«д	OTHER
+гг«	OTHER
+нЌ—я	OTHER
+‘Ё не	OTHER
+***
+Ёё«б	OTHER
+«»д	PERSON
+Џ»«”	PERSON
+Ё√д«	OTHER
+√Ќ—яег«	OTHER
+бяг	OTHER
+яг«	OTHER
+я«д	OTHER
+—”жб	PROPHET
+«ббе	PROPHET
+’бм	OTHER
+«ббе	ALLAH
+Џбне	OTHER
+ж”бг	OTHER
+нЌ—яег«	OTHER
+***
+жё«б	OTHER
+”Џнѕ	PERSON
+√д«	OTHER
+√Ќ—яег«	OTHER
+яг«	OTHER
+—√н 	OTHER
+«»д	PERSON
+Џ»«”	PERSON
+нЌ—яег«	OTHER
+***
+ЁЌ—я	OTHER
+‘Ё не	OTHER
+Ё√д“б	OTHER
+«ббе	ALLAH
+ Џ«бм	OTHER
+***
+б«	OTHER
+ Ќ—я	OTHER
+»е	OTHER
+б”«дя	OTHER
+б Џћб	OTHER
+»е	OTHER
+***
+≈д	OTHER
+Џбнд«	OTHER
+ћгЏе	OTHER
+жё—¬де	OTHER
+***
+«бён«г…	OTHER
+17	NUMBER
+***
+ё«б	OTHER
+ћгЏе	OTHER
+бя	OTHER
+Ён	OTHER
+’ѕ—я	OTHER
+ж ё—√е	OTHER
+***
+Ё≈–«	OTHER
+ё—√д«е	OTHER
+Ё« »Џ	OTHER
+ё—¬де	OTHER
+***
+«бён«г…	OTHER
+18	NUMBER
+***
+ё«б	OTHER
+Ё«” гЏ	OTHER
+бе	OTHER
+ж√д’ 	OTHER
+***
+Ћг	OTHER
+≈д	OTHER
+Џбнд«	OTHER
+»н«де	OTHER
+***
+«бён«г…	OTHER
+19	NUMBER
+***
+Ћг	OTHER
+≈д	OTHER
+Џбнд«	OTHER
+√д	OTHER
+ ё—√е	OTHER
+***
+Ёя«д	OTHER
+—”жб	PROPHET
+«ббе	PROPHET
+’бм	OTHER
+«ббе	ALLAH
+Џбне	OTHER
+ж”бг	OTHER
+»Џѕ	OTHER
+–бя	OTHER
+≈–«	OTHER
+√ «е	OTHER
+ћ»—нб	PERSON
+«” гЏ	OTHER
+***
+Ё≈–«	OTHER
+«дЎбё	OTHER
+ћ»—нб	PERSON
+ё—√е	OTHER
+«бд»н	PROPHET
+’бм	OTHER
+«ббе	ALLAH
+Џбне	OTHER
+ж”бг	OTHER
+яг«	OTHER
+ё—√е	OTHER
+***
+ Џбнё	OTHER
+г’ЎЁм	PERSON
+«б»џ«	PERSON
+***
+5	NUMBER
+1	NUMBER
+6	NUMBER
+‘	OTHER
+***
+√ќ—ће	OTHER
+г”бг	PERSON
+Ён	OTHER
+«б√нг«д	OTHER
+»«»	OTHER
+«б«” г«Џ	OTHER
+ббё—«Ѕ…	OTHER
+—ёг	OTHER
+448	NUMBER
+***
+нЏ«бћ	OTHER
+гд	OTHER
+«бгЏ«бћ…	OTHER
+***
+жен	OTHER
+гЌ«жб…	OTHER
+«б‘нЅ	OTHER
+»г‘ё…	OTHER
+***
+«б д“нб	BOOK
+ д“нб	OTHER
+«б√нг«д	OTHER
+Џбне	OTHER
+***
+жя«д	OTHER
+гг«	OTHER
+нЌ—я	OTHER
+‘Ё не	OTHER
+√н	OTHER
+я«д 	OTHER
+«б‘ѕ…	OTHER
+гд	OTHER
+яЋ—…	OTHER
+ Ќ—няе	OTHER
+‘Ё не	OTHER
+***
+жя«д	OTHER
+’бм	OTHER
+«ббе	ALLAH
+Џбне	OTHER
+ж”бг	OTHER
+нЁЏб	OTHER
+–бя	OTHER
+ќ‘н…	OTHER
+√д	OTHER
+нд”м	OTHER
+г«	OTHER
+√жЌн	OTHER
+≈бне	OTHER
+»е	OTHER
+«б√нг«д	BOOK
+***
+б Џћб	OTHER
+»е	OTHER
+***
+б √ќ–е	OTHER
+Џбм	OTHER
+Џћб	NatOb
+г”«—Џ…	OTHER
+≈бм	OTHER
+ЌЁўе	OTHER
+ќ‘н…	OTHER
+√д	OTHER
+ндЁб 	OTHER
+где	OTHER
+‘нЅ	OTHER
+***
+ћгЏе	OTHER
+бе	OTHER
+ћгЏ	OTHER
+«ббе	ALLAH
+ Џ«бм	OTHER
+«б√нг«д	BOOK
+ж ё—√е	OTHER
+ж√д	OTHER
+ ё—√е	OTHER
+»Џѕ	OTHER
+«д е«Ѕ	OTHER
+жЌне	OTHER
+***
+ё—¬де	BOOK
+ё—«Ѕ е	OTHER
+яг«	OTHER
+√д“б	OTHER
+Ёб«	OTHER
+нџн»	OTHER
+Џдя	OTHER
+где	OTHER
+‘нЅ	OTHER
+***
+»н«де	OTHER
+«” г—«—	OTHER
+ЌЁўя	OTHER
+бе	OTHER
+»ўеж—е	OTHER
+Џбм	OTHER
+б”«дя	OTHER
+***
+жёнб	OTHER
+»н«д	OTHER
+гћгб« е	OTHER
+ж ж÷нЌ	OTHER
+г‘яб« е	OTHER
+ж»н«д	OTHER
+г«	OTHER
+Ёне	OTHER
+гд	OTHER
+Ќб«б	OTHER
+жЌ—«г	OTHER
+жџн—	OTHER
+–бя	OTHER
+***
+ж«б¬н« 	OTHER
+гд	OTHER
+”ж—…	OTHER
+«бён«г…	OTHER
+***
+16	NUMBER
+19	NUMBER
+4643	NUMBER
+4645	NUMBER
+4757	NUMBER
+7086	NUMBER
+6	NUMBER
+***
+ЌѕЋд«	OTHER
+Џ»ѕ«д	PERSON
+***
+ё«б	OTHER
+√ќ»—д«	OTHER
+Џ»ѕ	PERSON
+«ббе	PERSON
+***
+ё«б	OTHER
+√ќ»—д«	OTHER
+нжд”	PERSON
+Џд	OTHER
+«б“е—н	PERSON
+Ќ	OTHER
+жЌѕЋд«	OTHER
+»‘—	PERSON
+»д	PERSON
+гЌгѕ	PERSON
+ё«б	OTHER
+***
+√ќ»—д«	OTHER
+Џ»ѕ	PERSON
+«ббе	ALLAH
+ё«б	OTHER
+√ќ»—д«	OTHER
+нжд”	PERSON
+жгЏг—	PERSON
+Џд	OTHER
+«б“е—н	PERSON
+дЌже	OTHER
+***
+ё«б	OTHER
+√ќ»—дн	OTHER
+Џ»нѕ	PERSON
+«ббе	ALLAH
+»д	PERSON
+Џ»ѕ	PERSON
+«ббе	ALLAH
+Џд	OTHER
+«»д	PERSON
+Џ»«”	PERSON
+ё«б	OTHER
+***
+я«д	OTHER
+—”жб	PROPHET
+«ббе	PROPHET
+’бм	OTHER
+«ббе	ALLAH
+Џбне	OTHER
+ж”бг	OTHER
+√ћжѕ	OTHER
+«бд«”	OTHER
+жя«д	OTHER
+√ћжѕ	OTHER
+г«	OTHER
+няжд	OTHER
+Ён	OTHER
+—г÷«д	MONTH
+Ќнд	OTHER
+нбё«е	OTHER
+ћ»—нб	PERSON
+***
+жя«д	OTHER
+нбё«е	OTHER
+Ён	OTHER
+яб	OTHER
+бнб…	OTHER
+гд	OTHER
+—г÷«д	MONTH
+Ёнѕ«—”е	OTHER
+«б√нг«д	BOOK
+Ёб—”жб	PROPHET
+«ббе	PROPHET
+’бм	OTHER
+«ббе	ALLAH
+Џбне	OTHER
+ж”бг	OTHER
+√ћжѕ	OTHER
+»«бќн—	OTHER
+гд	OTHER
+«б—нЌ	OTHER
+«бг—”б…	OTHER
+***
+ Џбнё	OTHER
+г’ЎЁм	PERSON
+«б»џ«	PERSON
+***
+6	NUMBER
+1	NUMBER
+6	NUMBER
+‘	OTHER
+***
+√ќ—ће	OTHER
+г”бг	PERSON
+Ён	OTHER
+«б¬ѕ«»	OTHER
+***
+»«»	OTHER
+я«д	OTHER
+«бд»н	PROPHET
+’бм	OTHER
+«ббе	ALLAH
+Џбне	OTHER
+ж”бг	OTHER
+√ћжѕ	OTHER
+«бд«”	OTHER
+»«бќн—	OTHER
+***
+—ёг	OTHER
+2308	NUMBER
+***
+Ќ	OTHER
+***
+е–«	OTHER
+«бЌ—Ё	OTHER
+н”гм	OTHER
+Ќ«Ѕ	OTHER
+«б Ќжнб	OTHER
+жнƒ м	OTHER
+»е«	OTHER
+—г“«	OTHER
+бб Ќжб	OTHER
+гд	OTHER
+≈”д«ѕ	OTHER
+≈бм	OTHER
+¬ќ—	OTHER
+≈–«	OTHER
+я«д	OTHER
+ббЌѕнЋ	OTHER
+≈”д«ѕ«д	OTHER
+Ё√яЋ—	OTHER
+***
+Ќ м	OTHER
+б«	OTHER
+н—я»	OTHER
+«б≈”д«ѕ	OTHER
+«бЋ«дн	NUMBER
+гЏ	OTHER
+«б≈”д«ѕ	OTHER
+«б√жб	NUMBER
+ЁнћЏб«	OTHER
+≈”д«ѕ«	OTHER
+ж«Ќѕ	NUMBER
+***
+жёнб	OTHER
+≈де«	OTHER
+—г“	OTHER
+≈бм	OTHER
+ёжбе	OTHER
+***
+«бЌѕнЋ	OTHER
+√н	OTHER
+«бЌѕнЋ	OTHER
+«бг–яж—	OTHER
+жбяд	OTHER
+»е–«	OTHER
+«б≈”д«ѕ	OTHER
+√ћжѕ	OTHER
+«бд«”	OTHER
+√”ќм	OTHER
+«бд«”	OTHER
+***
+√ЁЏб	OTHER
+ Ё÷нб	OTHER
+гд	OTHER
+«бћжѕ	OTHER
+жеж	OTHER
+«бЏЎ«Ѕ	OTHER
+Ёнѕ«—”е	OTHER
+гд	OTHER
+«бгѕ«—”…	OTHER
+ж√’бе«	OTHER
+ Џеѕ	OTHER
+«б‘нЅ	OTHER
+Ќ м	OTHER
+б«	OTHER
+нд”м	OTHER
+***
+ж«бг—«ѕ	OTHER
+н д«ж»	OTHER
+гЏе	OTHER
+«бё—«Ѕ…	OTHER
+Џбм	OTHER
+”—Џ…	OTHER
+«бг—”б…	OTHER
+«бгЎбё…	OTHER
+«б н	OTHER
+нѕжг	OTHER
+е»ж»е«	OTHER
+жнЏг	OTHER
+дЁЏе«	OTHER
+***

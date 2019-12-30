@@ -23,7 +23,7 @@ class BasicTokenize:
         tt = u"\x0033 \x8D \x8E \x90 \xC1- \xD6 \xD8- \xDF \xE1 \xE3- \xE6 \xEC- \xED \xF0- \xF3 \xF5 \xF6 \xF8 \xFA".split()
         stt = u"\xD8"
         # stt=stt.encode("windows-1256").decode("utf-8")
-        return tokens
+        return reversed(tokens)
 
     def tokenize(self, text):
         # tokens=WordPunctTokenizer().tokenize(text)

@@ -1,6 +1,14 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Dec  14 23:41:18 2019
+
+@author: Selmane
+"""
+
 
 from flask import Flask
 from flask_restful import Api, Resource, reqparse, request
+from flask_cors import CORS
 from flask import jsonify, make_response
 import os, sys, inspect
 import simplejson as json
@@ -12,6 +20,7 @@ import models
 from models import HMM
 
 app = Flask(__name__)
+cors = CORS(app, resources={r"/*": {"origins": "http://localhost:8080"}})
 api = Api(app)
 
 @app.route('/')
