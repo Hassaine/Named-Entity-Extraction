@@ -14,61 +14,42 @@ sys.path.append(parentdir+"\\NLP\\corpus")
 sys.path.append(parentdir+"\\NLP\\segtools")
 
 
-
-
-
-
-
-
 try:
      rawiINDC = open('./rawiINDC.txt','r',encoding="windows-1256").read().split()
-     directoryListOfFile={}
+     #directoryListOfFile=[]
      os.chdir(currentdir.replace("\\", "/") + "/../NLP/corpus/sources/emission/hadith")
      textfiles = [os.path.abspath(el) for el in list(glob.glob("*.txt"))]
      for file in textfiles:
         corpus = open(file,'r',encoding="windows-1256")
-        objectBookSummery = { "rowat":{}}
+        objectBookSummery = {}
         bookTitleFound=False
         bookTitle=""
         for line in corpus:       
-            line=line[:-1].split()
-            if(len(line)>1 and line[1]=='Book' and not bookTitleFound):
-		 		
-                while(line[1]=='Book'):               
-                    bookTitle +=line[0]+" "
-                    line = corpus.readline().split()               
-            objectBookSummery["bookTitle"]=bookTitle   
-            bookTitleFound=True
-		 		
+            line=line[:-1].split()		 		
             if(len(line)>1 and line[1]=="O"):
-                if(line[0] in rawiINDC):
-		 			
+                if(line[0] in rawiINDC):	
                     line = corpus.readline().split() 
                     if(len(line) > 1 and line[1]=="PERSON"):
-                        person=[]
+                        person=""
 		 				
                         while(len(line) > 1 and line[1]=='PERSON'):
 		 				
 		 					
-                            person.append(line[0])
+                            person+=line[0]+" "
                             line = corpus.readline().split() 
-                        if(objectBookSummery["rowat"].get(str(person),None) is None):    
-                            objectBookSummery["rowat"][str(person)]=1
+                        if(objectBookSummery.get(person,None) is None):    
+                            objectBookSummery[person]=1
                         else:
-                            objectBookSummery["rowat"][str(person)] += 1
-		 					
-		 				
-        roawtNames=[ast.literal_eval(rawi) for rawi  in objectBookSummery['rowat']]
-        rowatFreq=list(objectBookSummery['rowat'].values())   
-        objectBookSummery['rowatNames']=roawtNames
-        objectBookSummery['rowatFreq']=rowatFreq
-        del objectBookSummery['rowat']
-        directoryListOfFile.append(objectBookSummery)
-        
+                            objectBookSummery[person] += 1		 				
+        rowatNames=[rawi for rawi  in objectBookSummery]
+        rowatFreq=list(objectBookSummery.values())  
+        listToSend=[]
+        for i in range(len(rowatNames)):
+            listToSend.append({rowatNames[i]:rowatFreq[i]})  
      os.chdir(currentdir)
 except FileNotFoundError as notFE:
-     print("file does not exist !.")
-     print(notFE.strerror())
+     print("error !.")
+     print(notFE.strerror)
   
 
 
