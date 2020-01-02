@@ -41,7 +41,7 @@ staticMethods.position=position
 
 class Model:
 
-    def __init__(self,stemmer=BasicStemmer(),backoff:Model=None):
+    def __init__(self,stemmer=BasicStemmer(),backoffs=None):
         self.stemmer=stemmer
         self.bacckoff=backoff
 

@@ -23,18 +23,18 @@ sys.path.append(parentdir+"\\NLP\\segtools")
 import models
 import tokenizer
 
-'''app = Flask(__name__)
+BASE_CONTEXT_DIRECTORY =parentdir+"\\NLP\\corpus\\contexts"
+app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "http://localhost:8080"}})
-api = Api(app)'''
+api = Api(app)
 
 
-#@app.route('/words-sents')
+
+
+
+@app.route('/words-sents')
 def words_sents_stats():
-    return "Hello World!"
-
-
-#@app.route('/words-sents')
-def words_sents_stats(contexts=["hadith"]):
+    contexts = request.args.get("hadith")
     for context in contexts:
         results = {}
         sentsCpt = wordsCpt = 0
@@ -75,7 +75,7 @@ def words_sents_stats(contexts=["hadith"]):
 
 
 
-#@app.route('/ne-tagged-stats')
+@app.route('/ne-tagged-stats')
 def tagged_ne_stats():
     root,dirs,fileNames=list(os.walk(currentdir.replace("\\", "/") + "/../NLP/corpus/taggedTexts/contexts"))[0]
     contextStats={}
@@ -106,6 +106,41 @@ def tagged_ne_stats():
 
         os.chdir(currentdir)
 
+@app.route('/corpus-texts-content',methods=['GET','POST'])
+def get_corpus_text():
+    try:
+        narator=None
+        context=request.args.get('context')
+        if "narator" in request.args:
+            narator=request.args.get("narator")
+
+        print(list(os.walk(BASE_CONTEXT_DIRECTORY))[0])
+        dirs=list(os.walk(BASE_CONTEXT_DIRECTORY))[0][1]
+
+        if context not in dirs:
+            return make_response(jsonify({"Flag": "Fail",
+                                          "Message": "No corpus found for the specific context"
+                                          }), 400)
+        textFiles = [os.path.abspath(el) for el in list(glob.glob(BASE_CONTEXT_DIRECTORY+"\\"+context+"\\*.txt"))]
+        if narator is None: narator=""
+        listTexts=[]
+        for file in textFiles:
+            with open(file,"r",encoding="windows-1256") as f:
+                texts=f.read().split("<H>")
+                for text in texts:
+                    if narator in text:
+                        listTexts.append(text)
+
+                f.close()
+
+        return make_response(jsonify({"Flag": "Success",
+                                      "result": listTexts
+                                      }), 200)
+    except Exception as e:
+
+        return make_response(jsonify({"Flag": "Fail",
+                                      "Message": "An error has occured" + "\n \t" + str(e)
+                                      }), 400)
 
 
 
@@ -115,5 +150,6 @@ def tagged_ne_stats():
 
 
 
-ne_stats()
+
+#ne_stats()
 #words_sents_stats(["hadith"])

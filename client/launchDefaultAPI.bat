@@ -1,2 +1,2 @@
-set FLASK_APP=default.py
+set FLASK_APP=statistics.py
 flask run
