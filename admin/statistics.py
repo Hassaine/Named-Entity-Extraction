@@ -25,7 +25,7 @@ import models
 import tokenizer
 
 app = Flask(__name__)
-cors = CORS(app, resources={r"/*": {"origins": "http://localhost:8080"}})
+cors = CORS(app, resources={r"/*": {"origins": "http://localhost:*"}})
 api = Api(app)
 
 

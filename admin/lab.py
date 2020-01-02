@@ -32,9 +32,7 @@ try:
                     if(len(line) > 1 and line[1]=="PERSON"):
                         person=""
 		 				
-                        while(len(line) > 1 and line[1]=='PERSON'):
-		 				
-		 					
+                        while(len(line) > 1 and line[1]=='PERSON'):		 						 					
                             person+=line[0]+" "
                             line = corpus.readline().split() 
                         if(objectBookSummery.get(person,None) is None):    

@@ -98,7 +98,7 @@
 รำํๆุํ     PERSON
 ริัÝ     PERSON
 ริฺศ     PERSON
-ริ฿ัๆÝส     PERSON
+ริ฿ัๆÝส PERSON
 รุัิ     PERSON
 รุแำ     PERSON
 รฺัฬ     PERSON
