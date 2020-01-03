@@ -24,6 +24,27 @@ app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "http://localhost:*"}})
 api = Api(app)
 
+@app.route('/corpuslist', methods=['GET'])
+def corpusName():
+    try:
+         myCorpusManager = corpusManager()
+         corpusList=myCorpusManager.getEmissionSources()
+         response_body = {
+                    "Flag": "Sucess",
+                    "Result": json.dumps(corpusList, encoding="windows-1256")
+                }
+         return make_response(jsonify(response_body), 200)     
+
+
+    except Exception as e:
+         print("file does not exist !.")
+         return make_response(jsonify({"Flag": "Fail",
+                                      "Message": "An error has occured"+"\n \t"+str(e)
+                                      }), 400)
+
+
+
+
 @app.route('/corpus', methods=['GET'])
 
 def getcorpus():
