@@ -98,7 +98,7 @@
 √”нжЎн     PERSON
 √‘—Ё     PERSON
 √‘Џ»     PERSON
-√‘я—жЁ  PERSON
+√‘я—жЁ      PERSON
 √Ў—‘     PERSON
 √Ўб”     PERSON
 √Џ—ћ     PERSON
@@ -3157,5 +3157,5 @@
 нждн «     ORG
 нждн”Ё     ORG
 нждн”яж     ORG
-нждн”нЁ     ORG
-«б‘«ЁЏн PERSON
+нждн”нЁ ORG
+

@@ -27,7 +27,7 @@ parser.add_argument(
     'file', type=werkzeug.datastructures.FileStorage, location='files')
 
 app = Flask(__name__)
-cors = CORS(app, resources={r"/*": {"origins": "http://localhost:8080"}})
+cors = CORS(app, resources={r"/*": {"origins": "http://localhost:*"}})
 
 
 api = Api(app)

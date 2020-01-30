@@ -25,6 +25,8 @@ class BasicStemmer(Stemmer):
 
     def __init__(self):
         self.stemmer = ISRIStemmer()
+        self.stopWordsIndex=ArabicStopWordsIndex(self)
+        self.stopWordsIndex.buildIndex()
 
     def getStems(self,tokens,flag=False):
 
@@ -37,6 +39,12 @@ class BasicStemmer(Stemmer):
             print(token,"  :  ",root)
 
         return rootList
+
+    def stem(self,word):
+        root = self.stemmer.pre32(word)
+        root=self.stemmer.norm(root,3)
+
+        return root
 
 
 
@@ -61,6 +69,7 @@ class BasicStemmer(Stemmer):
 
     def setStopWordsIndex(self,index:ArabicStopWordsIndex):
         self.stopWordsIndex=index
+        self.stopWordsIndex.buildIndex()
 
 
 
